@@ -26,6 +26,7 @@ steps:
   displayName: 'composer install'
 
 - script: |
+    cp .env.example .env
     php artisan key:generate
     chmod +x phpunit
     ./phpunit
