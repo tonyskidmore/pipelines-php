@@ -25,6 +25,6 @@
         <env name="DB_DATABASE" value=":memory:"/>
         <env name="SESSION_DRIVER" value="file"/>
         <env name="QUEUE_DRIVER" value="sync"/>
-        <env name="APP_KEY" value="DummyToVexNoSupported\Encrypter"/>
+        <env name="APP_KEY" value="37C0A584E04F83B4FD46B7FECE2C0ED3A859099817C4B2F9"/>
     </php>
 </phpunit>
